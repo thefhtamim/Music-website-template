@@ -1,0 +1,355 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Monsterrat", sans-serif;
+}
+.app {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(192, 192, 192), rgba(192, 192, 192, 0.3)),
+    url("https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.box .container {
+  margin-top: 90px;
+}
+.color-pink {
+  color: #00ccff;
+}
+.app-text {
+  margin-top: 10rem;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.box h1 {
+  font-size: 4rem;
+}
+.box p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.app-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.header-buttons {
+  margin-left: 60px;
+  padding: 10px;
+}
+
+.btn-1 {
+  margin: 0px 10px 0px 10px;
+}
+
+.header-buttons input,
+.arijitBtn button {
+  color: black;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 10px;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid transparent !important;
+  transition: 0.3s ease;
+}
+.header-buttons input:hover {
+  background-color: #00ccff;
+  color: white;
+}
+.arijitBtn button:hover {
+  background-color: #00ccff !important;
+  color: white;
+  transform: translateX(-10px);
+  transition: 0.5s ease-in-out;
+}
+/*********************1st page css finished*********************/
+.singers {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url("https://images.unsplash.com/photo-1462965326201-d02e4f455804?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%, 100%;
+}
+.singers-text {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  position: absolute;
+}
+.singers-text h1 {
+  font-size: 4rem;
+  color: #00ccff;
+}
+.singers-text p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.singers .container {
+  width: 100%;
+  height: auto;
+  margin-top: 310px;
+  margin-left: 290px;
+  position: absolute;
+}
+.container img {
+  padding: 10px;
+}
+.card-2 {
+  transform: translateY(-40px);
+}
+.card-2:hover {
+  transform: translateY(-10px);
+  transition: 0.9s ease-out;
+}
+.card-1:hover {
+  transform: translateX(-40px);
+  transition: 0.6s ease-out;
+}
+.card-3:hover {
+  transform: translateX(+40px);
+  transition: 0.9s ease-out;
+}
+.card .card-title {
+  color: #00ccff;
+  font-size: 1.6rem;
+}
+.card .btn-1 {
+  background-color: sandybrown;
+  border: 1px solid transparent !important;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 0.9rem;
+  padding: 10px;
+  transition: 0.3s ease-in;
+}
+.btn-1:hover {
+  color: #fff;
+  background-color: #00ccff !important;
+  transform: translateY(10px);
+}
+/*********************2nd page css finished***************/
+.gaane {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(
+    rgba(192, 192, 192, 0.6),
+    rgba(192, 192, 192, 0.3)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  transition: 0.8s ease-in-out;
+}
+.raagni,
+.kirtan,
+.rap {
+  width: 100%;
+  height: auto;
+  margin-top: 170px;
+  position: absolute;
+}
+.raagni .songs,
+.kirtan .songs,
+.rap .songs {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.raagni .song-1,
+.kirtan .song-1,
+.rap .song-1 {
+  background: url("./images/khamoshiyan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.raagni .song-2,
+.kirtan .song-2,
+.rap .song-2 {
+  background: url("./images/tu\ har\ lamha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.raagni .song-3,
+.kirtan .song-3,
+.rap .song-3 {
+  background: url("./images/mai\ hoo\ deewanat\ etra.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.raagni .song-4,
+.kirtan .song-4,
+.rap .song-4 {
+  background: url("./images/gerua.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.songs > div {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.songs > div:hover {
+  cursor: pointer;
+}
+.songs .sound {
+  width: 250px;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 30px;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+.songs .sound:hover {
+  cursor: pointer;
+  border-radius: 10px;
+}
+.raagni1,
+.kirtan1,
+.rap1 {
+  width: 100%;
+  position: absolute;
+  height: auto;
+  margin-top: 500px;
+}
+.raagni1 .songs,
+.kirtan1 .songs,
+.rap1 .songs {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.raagni1 .song-5,
+.kirtan1 .song-5,
+.rap1 .song-5 {
+  background: url("./images/ijjat.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.raagni1 .song-6,
+.kirtan1 .song-6,
+.rap1 .song-6 {
+  background: url("./images/itni\ si\ baat\ h.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.raagni1 .song-7,
+.kirtan1 .song-7,
+.rap1 .song-7 {
+  background: url("./images/soch\ na\ ske.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.raagni1 .song-8,
+.kirtan1 .song-8,
+.rap1 .song-8 {
+  background: url("./images/teri\ meri.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.arijit-text,
+.jubin-text,
+.badshah-text {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  text-align: center;
+
+  margin-top: 20px;
+}
+
+.arijit-text h1,
+.jubin-text h1,
+.badshah-text h1 {
+  color: #00ccff;
+  font-size: 3rem;
+}
+.arijit-text p,
+.jubin-text p,
+.badshah-text p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/********************3rd Page Khatm*********************************/
+.romantic {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(
+      rgba(192, 192, 192, 0.9),
+      rgba(192, 192, 192, 0.8)
+    ),
+    Url("./images/jubin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  margin-top: -790px;
+  transition: 0.8s ease-in-out;
+}
+/***********************4th Page Finishes*************************/
+.hiphop {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  margin-top: -790px;
+  transition: 0.8s ease-in-out;
+}
+.upload {
+  width: 100%;
+  height: 100vh;
+}
+
+/******Universal****************/
+
+.fadeIn {
+  opacity: 0;
+  pointer-events: none;
+}
+.fadeOut {
+  opacity: 1;
+  pointer-events: all;
+}
+.arijitBtn,
+.jubinBtn,
+.badshahBtn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  position: absolute;
+}
